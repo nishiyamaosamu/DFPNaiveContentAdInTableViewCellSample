@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EFF7921BAA7FA4000CCFC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFF7911BAA7FA4000CCFC8 /* AppDelegate.swift */; };
+		17EFF7941BAA7FA4000CCFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFF7931BAA7FA4000CCFC8 /* ViewController.swift */; };
+		17EFF7971BAA7FA4000CCFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EFF7951BAA7FA4000CCFC8 /* Main.storyboard */; };
+		17EFF7991BAA7FA4000CCFC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EFF7981BAA7FA4000CCFC8 /* Images.xcassets */; };
+		17EFF79C1BAA7FA4000CCFC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17EFF79A1BAA7FA4000CCFC8 /* LaunchScreen.xib */; };
+		17EFF7A81BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFF7A71BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.swift */; };
+		17EFF7B21BAA7FDB000CCFC8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFF7B11BAA7FDB000CCFC8 /* GoogleMobileAds.framework */; };
+		17EFF7B41BAA8053000CCFC8 /* NativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17EFF7B31BAA8053000CCFC8 /* NativeContentAdView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EFF7A21BAA7FA4000CCFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EFF7841BAA7FA4000CCFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EFF78B1BAA7FA4000CCFC8;
+			remoteInfo = DFPNaiveContentAdInTableViewCellSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EFF78C1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFPNaiveContentAdInTableViewCellSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFF7901BAA7FA4000CCFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EFF7911BAA7FA4000CCFC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17EFF7931BAA7FA4000CCFC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17EFF7961BAA7FA4000CCFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17EFF7981BAA7FA4000CCFC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17EFF79B1BAA7FA4000CCFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		17EFF7A11BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFPNaiveContentAdInTableViewCellSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFF7A61BAA7FA4000CCFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EFF7A71BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFPNaiveContentAdInTableViewCellSampleTests.swift; sourceTree = "<group>"; };
+		17EFF7B11BAA7FDB000CCFC8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		17EFF7B31BAA8053000CCFC8 /* NativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeContentAdView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EFF7891BAA7FA4000CCFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EFF7B21BAA7FDB000CCFC8 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EFF79E1BAA7FA4000CCFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EFF7831BAA7FA4000CCFC8 = {
+			isa = PBXGroup;
+			children = (
+				17EFF7B11BAA7FDB000CCFC8 /* GoogleMobileAds.framework */,
+				17EFF78E1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample */,
+				17EFF7A41BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests */,
+				17EFF78D1BAA7FA4000CCFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EFF78D1BAA7FA4000CCFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EFF78C1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample.app */,
+				17EFF7A11BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EFF78E1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample */ = {
+			isa = PBXGroup;
+			children = (
+				17EFF7911BAA7FA4000CCFC8 /* AppDelegate.swift */,
+				17EFF7931BAA7FA4000CCFC8 /* ViewController.swift */,
+				17EFF7951BAA7FA4000CCFC8 /* Main.storyboard */,
+				17EFF7981BAA7FA4000CCFC8 /* Images.xcassets */,
+				17EFF79A1BAA7FA4000CCFC8 /* LaunchScreen.xib */,
+				17EFF78F1BAA7FA4000CCFC8 /* Supporting Files */,
+				17EFF7B31BAA8053000CCFC8 /* NativeContentAdView.xib */,
+			);
+			path = DFPNaiveContentAdInTableViewCellSample;
+			sourceTree = "<group>";
+		};
+		17EFF78F1BAA7FA4000CCFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17EFF7901BAA7FA4000CCFC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17EFF7A41BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				17EFF7A71BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.swift */,
+				17EFF7A51BAA7FA4000CCFC8 /* Supporting Files */,
+			);
+			path = DFPNaiveContentAdInTableViewCellSampleTests;
+			sourceTree = "<group>";
+		};
+		17EFF7A51BAA7FA4000CCFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17EFF7A61BAA7FA4000CCFC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EFF78B1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EFF7AB1BAA7FA4000CCFC8 /* Build configuration list for PBXNativeTarget "DFPNaiveContentAdInTableViewCellSample" */;
+			buildPhases = (
+				17EFF7881BAA7FA4000CCFC8 /* Sources */,
+				17EFF7891BAA7FA4000CCFC8 /* Frameworks */,
+				17EFF78A1BAA7FA4000CCFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFPNaiveContentAdInTableViewCellSample;
+			productName = DFPNaiveContentAdInTableViewCellSample;
+			productReference = 17EFF78C1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17EFF7A01BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EFF7AE1BAA7FA4000CCFC8 /* Build configuration list for PBXNativeTarget "DFPNaiveContentAdInTableViewCellSampleTests" */;
+			buildPhases = (
+				17EFF79D1BAA7FA4000CCFC8 /* Sources */,
+				17EFF79E1BAA7FA4000CCFC8 /* Frameworks */,
+				17EFF79F1BAA7FA4000CCFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EFF7A31BAA7FA4000CCFC8 /* PBXTargetDependency */,
+			);
+			name = DFPNaiveContentAdInTableViewCellSampleTests;
+			productName = DFPNaiveContentAdInTableViewCellSampleTests;
+			productReference = 17EFF7A11BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EFF7841BAA7FA4000CCFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "ever sense";
+				TargetAttributes = {
+					17EFF78B1BAA7FA4000CCFC8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					17EFF7A01BAA7FA4000CCFC8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 17EFF78B1BAA7FA4000CCFC8;
+					};
+				};
+			};
+			buildConfigurationList = 17EFF7871BAA7FA4000CCFC8 /* Build configuration list for PBXProject "DFPNaiveContentAdInTableViewCellSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EFF7831BAA7FA4000CCFC8;
+			productRefGroup = 17EFF78D1BAA7FA4000CCFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EFF78B1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample */,
+				17EFF7A01BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EFF78A1BAA7FA4000CCFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EFF7971BAA7FA4000CCFC8 /* Main.storyboard in Resources */,
+				17EFF79C1BAA7FA4000CCFC8 /* LaunchScreen.xib in Resources */,
+				17EFF7B41BAA8053000CCFC8 /* NativeContentAdView.xib in Resources */,
+				17EFF7991BAA7FA4000CCFC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EFF79F1BAA7FA4000CCFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EFF7881BAA7FA4000CCFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EFF7941BAA7FA4000CCFC8 /* ViewController.swift in Sources */,
+				17EFF7921BAA7FA4000CCFC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EFF79D1BAA7FA4000CCFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EFF7A81BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17EFF7A31BAA7FA4000CCFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EFF78B1BAA7FA4000CCFC8 /* DFPNaiveContentAdInTableViewCellSample */;
+			targetProxy = 17EFF7A21BAA7FA4000CCFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17EFF7951BAA7FA4000CCFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EFF7961BAA7FA4000CCFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17EFF79A1BAA7FA4000CCFC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EFF79B1BAA7FA4000CCFC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EFF7A91BAA7FA4000CCFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17EFF7AA1BAA7FA4000CCFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EFF7AC1BAA7FA4000CCFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DFPNaiveContentAdInTableViewCellSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17EFF7AD1BAA7FA4000CCFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DFPNaiveContentAdInTableViewCellSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17EFF7AF1BAA7FA4000CCFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DFPNaiveContentAdInTableViewCellSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFPNaiveContentAdInTableViewCellSample.app/DFPNaiveContentAdInTableViewCellSample";
+			};
+			name = Debug;
+		};
+		17EFF7B01BAA7FA4000CCFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DFPNaiveContentAdInTableViewCellSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFPNaiveContentAdInTableViewCellSample.app/DFPNaiveContentAdInTableViewCellSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EFF7871BAA7FA4000CCFC8 /* Build configuration list for PBXProject "DFPNaiveContentAdInTableViewCellSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EFF7A91BAA7FA4000CCFC8 /* Debug */,
+				17EFF7AA1BAA7FA4000CCFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EFF7AB1BAA7FA4000CCFC8 /* Build configuration list for PBXNativeTarget "DFPNaiveContentAdInTableViewCellSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EFF7AC1BAA7FA4000CCFC8 /* Debug */,
+				17EFF7AD1BAA7FA4000CCFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EFF7AE1BAA7FA4000CCFC8 /* Build configuration list for PBXNativeTarget "DFPNaiveContentAdInTableViewCellSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EFF7AF1BAA7FA4000CCFC8 /* Debug */,
+				17EFF7B01BAA7FA4000CCFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EFF7841BAA7FA4000CCFC8 /* Project object */;
+}
