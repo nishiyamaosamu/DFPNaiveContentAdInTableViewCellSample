@@ -9,7 +9,7 @@
 import UIKit
 import GoogleMobileAds
 
-class ViewController: UITableViewController,UITableViewDelegate,UITableViewDataSource,GADAdLoaderDelegate,
+class ViewController: UITableViewController,GADAdLoaderDelegate,
     GADNativeContentAdLoaderDelegate
 {
     
@@ -21,8 +21,6 @@ class ViewController: UITableViewController,UITableViewDelegate,UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        tableView.delegate = self
-        tableView.dataSource = self
         
         //DFP
         self.adLoader = GADAdLoader(adUnitID: "/6499/example/native", rootViewController: self, adTypes: [kGADAdLoaderAdTypeNativeContent], options: [])
@@ -65,7 +63,7 @@ class ViewController: UITableViewController,UITableViewDelegate,UITableViewDataS
     
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->  UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) 
         
         let isAdsPosition = (indexPath.row % frequencyAdsInCells - firstAdsPositionInCells) == 0
         
